@@ -2,18 +2,7 @@ const lx = init("getList.js");
 
 /****************
 1. 务必遵守疫情防控、法律法规、校规！
-2. 至少正常请假一次，本脚本才能运行。
-3. 脚本没有对服务器上的数据进行操作。
-4. 仅供交流学习，请在下载后24小时内删除。一切责任由使用者自负，与作者无关。
-
-Quantumult X 配置参考，其他软件类似
-[rewrite]
-脚本: getList.js
-类型: script-response-body
-url: ^https://student\.wozaixiaoyuan\.com/leave2/getList\.json
-
-[Mitm]
-主机名: student.wozaixiaoyuan.com
+2. 仅供交流学习，请在下载后24小时内删除。一切责任由使用者自负，与作者无关。
 
 ****************/
 
@@ -22,18 +11,13 @@ if (!lx.isResponse()) {
   lx.done()
 };
 
-//请假理由//(留空则不修改)
-title = "外出实习 八点半左右出校门坐公交去大学城北地铁站，到车陂南站上班车，九点半左右到公司 晚上六点半-七点半下班，坐班车回地铁站，坐公交回校。";     //(留空则不修改)
+title = "外出实习 八点半左右出校门坐公交去大学城北地铁站，到车陂南站上班车，九点半左右到公司 晚上六点半-七点半下班，坐班车回地铁站，坐公交回校。"; 
 
-//请假类型 事假 病假 实习 科研 出差 回家
-type = "实习";     //(留空则不修改)
+type = "实习";
 
-//指定假期开始时间结束时间 格式 "2021-06-28 10:00"
-//不指定则默认开始时间为当前 前1小时，结束时间当前 后2小时，不同时间打开会改变
 start = "2022-05-09 8:48";
 end = "2022-05-15 23:48";
 
-//假条状态 3假期中
 state = 3;
 
 Date.prototype.format=function(fmt){var o={"M+":this.getMonth()+1,"d+":this.getDate(),"h+":this.getHours(),"m+":this.getMinutes(),"s+":this.getSeconds(),"q+":Math.floor((this.getMonth()+3)/3),"S":this.getMilliseconds()};if(/(y+)/.test(fmt)){fmt=fmt.replace(RegExp.$1,(this.getFullYear()+"").substr(4-RegExp.$1.length))};for(var k in o){if(new RegExp("("+k+")").test(fmt)){fmt=fmt.replace(RegExp.$1,(RegExp.$1.length==1)?(o[k]):(("00"+o[k]).substr((""+o[k]).length)))}};return fmt};
@@ -46,7 +30,6 @@ function getFormatTime(time, flag) {
   }
 };
 
-//生成时间
 var time = new Date();
 time.setMinutes(0, 0, 0);
 if (start === "" && end === "") {
