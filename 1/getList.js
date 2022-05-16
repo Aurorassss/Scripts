@@ -15,8 +15,8 @@ if (!lx.isResponse()) {
 title = "外出实习，图1为14天打卡，图3为健康码，图4为行程卡";    
 type = "实习"; 
 
-start = "2022-5-02 8:48";
-end = "2022-5-08 23:48";
+start = "2022-5-16 8:48";
+end = "2022-5-22 23:48";
 state = 3;
 
 Date.prototype.format=function(fmt){var o={"M+":this.getMonth()+1,"d+":this.getDate(),"h+":this.getHours(),"m+":this.getMinutes(),"s+":this.getSeconds(),"q+":Math.floor((this.getMonth()+3)/3),"S":this.getMilliseconds()};if(/(y+)/.test(fmt)){fmt=fmt.replace(RegExp.$1,(this.getFullYear()+"").substr(4-RegExp.$1.length))};for(var k in o){if(new RegExp("("+k+")").test(fmt)){fmt=fmt.replace(RegExp.$1,(RegExp.$1.length==1)?(o[k]):(("00"+o[k]).substr((""+o[k]).length)))}};return fmt};
