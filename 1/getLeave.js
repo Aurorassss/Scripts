@@ -16,8 +16,8 @@ var user = {
     "tel": "",
     "reason": "外出实习，图1为14天打卡，图2为健康码，图3为行程卡",
     "userHead": "",
-    "start": "2022-5-16 8:48",
-    "end": "2022-5-22 23:48",
+    "start": "2022-5-23 8:48",
+    "end": "2022-5-29 23:48",
     "date": "",
     "school": "",
     "college": "",
@@ -30,7 +30,7 @@ var user = {
     "teacher": "",
     "approve": [
         {
-            "time": "5.15 19:47",
+            "time": "5.22 19:47",
             "state": 2,
             "userType": 4,
             "name": "",
@@ -41,7 +41,7 @@ var user = {
     ],
     "approve2": [
         {
-            "time": "5.15 22:35",
+            "time": "5.22 22:35",
             "state": 2,
             "userType": 3,
             "name": "肖锋",
