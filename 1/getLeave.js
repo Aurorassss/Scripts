@@ -15,7 +15,7 @@ var data_new = {
       {
         "reason" : "",
         "position" : "信息科学与技术学院",
-        "time" : "09.03 18:44",
+        "time" : "10.09 18:44",
         "head" : "https://jwoss1.wozaixiaoyuan.com/basicinfo/20210820/12/348815664095440896.jpg",
         "userType" : 4,
         "name" : "张文萃",
@@ -24,7 +24,7 @@ var data_new = {
       {
         "reason" : "",
         "position" : "信息科学与技术学院",
-        "time" : "09.03 23:58",
+        "time" : "10.09 23:58",
         "head" : "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoQnsZykiaOJtY78ggUxkT2KiaicG35pOTYe5mN2nfxoycW5dkI1a4SIjPMsbibLP3ecAtYvtxickqibUyw/132",
         "userType" : 3,
         "name" : "肖锋",
@@ -51,9 +51,9 @@ var data_new = {
     "grade" : "计科1802",
     "out" : 1,
     "reason": "外出实习，图1图2为14天打卡，图3为健康码，图4为行程卡",
-    "date" : "2022-09-03 18:37",
-    "start": "2022-09-04 8:48",
-    "end": "2022-09-10 23:48"
+    "date" : "2022-10-09 18:37",
+    "start": "2022-10-10 8:48",
+    "end": "2022-10-16 23:48"
   },
   "code" : 0
 }
